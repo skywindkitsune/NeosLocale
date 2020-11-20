@@ -6,8 +6,8 @@
         "General.OK" : "OK",
         "General.Cancel" : "Anuluj",
         "General.Continue" : "Kontynuuj",
-        "General.Next" : "Następny",
-        "General.Back" : "Poprzedni",
+        "General.Next" : "Dalej",
+        "General.Back" : "Wstecz",
         "General.Confirm" : "Na pewno?",
         "General.Loading" : "Ładowanie...",
         "General.Processing" : "Przetwarzanie...",
@@ -55,6 +55,18 @@
         "Interaction.LaserDisabled" : "Laser Wyłączony",
         "Interaction.Locomotion" : "Lokomocja",
         "Interaction.Locomotion.None" : "Żadna",
+
+        "Interaction.NamedEquipTool" : "Ekwipuj {name}",
+        "Interaction.NamedEquipTool.Default" : "Narzędzie",
+
+        "Interaction.EnterAnchor" : "Usiądź",
+        "Interaction.ExitAnchor" : "Wstań",
+
+        "Interaction.EquipAvatar" : "Załóż Awatar",
+
+        "Interaction.SaveAsScreenshot" : "Zapisz jako zrzut ekranu",
+        "Interaction.ImportFile" : "Importuj Plik",
+        "Interaction.ExportFile" : "Eksportuj Plik",
 
         "Dash.Screens.Home" : "Dom",
         "Dash.Screens.Worlds" : "Światy",
@@ -126,7 +138,7 @@
         "World.Actions.Join" : "Dołącz",
         "World.Actions.Focus" : "Pokaż",
         "World.Actions.Close" : "Zamknij Świat",
-        "World.Actions.Leave" : "Opuść Świata",
+        "World.Actions.Leave" : "Opuść Świat",
         "World.Actions.Save" : "Zapisz Zmiany",
         "World.Actions.SaveAs" : "Zapisz Jako...",
         "World.Actions.SaveCopy" : "Zapisz Kopię...",
@@ -315,7 +327,7 @@
         "User.Actions.Silence" : "Wycisz (globalnie)",
         "User.Actions.Mute" : "Wycisz (lokalnie)",
         "User.Actions.Jump" : "Skocz do",
-        "User.Actions.Respawn" : "Odrodzenie",
+        "User.Actions.Respawn" : "Odrodź",
         "User.Actions.Kick" : "Wyrzuć",
         "User.Actions.Ban" : "Banuj",
 
@@ -330,9 +342,14 @@
         "Contacts.UnbanFromAllSessions" : "Odbanuj we WSZYSTKICH moich sesjach",
         "Contacts.BanFromCurrentWorld" : "Zbanuj z bieżącego świata",
         "Contacts.UnbanFromCurrentWorld" : "Odbanuj z bieżącego świata",
+        "Contacts.RecordingVoiceMessage" : "Nagrywanie głosu...",
 
         "Contacts.InSession" : "W {name}",
         "Contacts.InPrivate" : "W Prywatnym Świecie",
+        "Contacts.InFriendsOnly" : "W Świecie Tylko dla Kontaktów",
+        "Contacts.InHidden" : "W Ukrytym Świecie",
+        "Contacts.InHiddenFriendsOnly" : "W Ukrytym Świecie, Tylko dla Kontaktów",
+        "Contacts.InLAN" : "W Świecie LAN",
         "Contacts.UsingDifferentVersion" : "Używa Wersji {version}",
         "Contacts.RequestSent" : "Wysłano Zaproszenie",
         "Contacts.RequestReceived" : "Zaproszenie",
@@ -349,6 +366,7 @@
         "Notifications.TransferedCredits" : "Przetransferowano {amount} {token}",
         "Notifications.ReceivedTip" : "Otrzymano Napiwek {amount} {token}",
         "Notifications.SentTip" : "Wysłano Napiwek {amount} {token}",
+        "Notifications.VoiceMessage" : "Wysłano wiadomość głosową",
 
         "Undo.SetField" : "Ustawienie pola {field_name} na {value}",
         "Undo.SetReference" : "Ustawienie odniesienia {ref_name} na {ref_target}",
@@ -429,6 +447,14 @@
 
         "Tooltip.Mesh.Edit" : "Edytuj Mesh",
 
+        "Tooltip.Microphone.Format.WAV" : "WAV",
+        "Tooltip.Microphone.Format.Vorbis" : "OGG Vorbis",
+        "Tooltip.Microphone.Format.FLAC" : "FLAC",
+        "Tooltip.Microphone.ModeHold" : "Trzymaj aby nagrywać",
+        "Tooltip.Microphone.ModePress" : "Kliknij aby zacząć/zakończyć nagrywanie",
+        "Tooltip.Microphone.SourceRaw" : "Surowe",
+        "Tooltip.Microphone.SourceFiltered" : "Filtrowane i Normalizowane",
+
         "CreateNew.Back" : "<<< <i>Wstecz</i>",
         "CreateNew.EmptyObject" : "Pusty Obiekt",
         "CreateNew.ParticleSystem" : "System Cząsteczek",
@@ -442,7 +468,7 @@
         "CreateNew.Object.SpawnArea" : "Strefa Odrodzenia",
         "CreateNew.Object.SpawnPoint" : "Punkt Odrodzenia",
         "CreateNew.Object.UIXCanvas" : "Panel UIX",
-        "CreateNew.Object.Facet" : "Dodatek",
+        "CreateNew.Object.Facet" : "Faseta",
 
         "CreateNew.Object.FogVolume" : "Mgła",
         "CreateNew.Object.FogVolume.Additive" : "Przyłączeniowy",
@@ -452,7 +478,7 @@
 
         "CreateNew.Text" : "Tekst",
         "CreateNew.Text.Basic" : "Podstawowy",
-        "CreateNew.Text.Outline" : "Z Konturem",
+        "CreateNew.Text.Outline" : "<nobr>Z Obrysem",
 
         "CreateNew.Editor" : "Edytor",
         "CreateNew.Editor.UserInspector" : "Inspektor Użytkowników",
@@ -501,6 +527,8 @@
         "AvatarCreator.TryAlignHands" : "Spróbuj Wyrównać Ręce",
         "AvatarCreator.AlignToolAnchors" : "Wyrównaj Narzędzia",
         "AvatarCreator.Create" : "Utwórz",
+
+        "Importer.General.AsRawFile" : "Plik",
 
         "Importer.Folder.Title" : "Importer Folderów",
         "Importer.Folder.Individual" : "Indywidualny import",
@@ -799,6 +827,7 @@
         "Settings.LegacyGripEquip" : "Włącz Stare Wyposażanie Podwójnym Chwytem",
         "Settings.LegacyWorldSwitcher" : "Włącz Stary Zmieniacz Światów",
         "Settings.FetchIncompatibleSessions" : "Pokaż Niekompatybilne Sesje",
+        "Settings.MaxConcurrentAssetTransfers" : "Limit Równoległych Transferów Zasobów",
 
         "Settings.LaserSmoothing.Header" : "Wygładzanie Laserów",
         "Settings.LaserSmoothing.Speed" : "Prędkość Wygładzania",
@@ -818,6 +847,15 @@
         "Settings.Audio.NoiseGateThreshold" : "Próg Bramy Szumów: {n}",
         "Settings.Audio.NormzliationThreshold" : "Próg Normalizacji: {n}",
         "Settings.Audio.InputDevice" : "Urządzenie Wejściowe Audio:",
+        "Settings.Audio.SelectInputDevice" : "Wybierz Urządzenie Audio",
+        "Settings.Audio.TestInput" : "Testuj Swoje Wejście Audio:",
+        "Settings.Audio.TestDescription" : "Puścimy dźwięk z wybranego urządzenia audio, aby upewnić się że to prawidłowe urządzenie.",
+        "Settings.Audio.StartTest" : "Sprawdź Mikrofon",
+        "Settings.Audio.StopTest" : "Zakończ Test",
+        "Settings.Audio.Monitoring" : "Monitorowanie Mikrofonu:",
+
+        "Settings.Locale.ChangeLanguage" : "Zmień Język",
+        "Settings.Locale.SelectLanguageHeader" : "Wybierz Swój Język:",
 
         "Settings.Save" : "Zapisz Ustawienia",
 
@@ -846,7 +884,7 @@
 
         "Settings.WindowsIntegration" : "Integracja Windows",
         "Settings.LinuxIntegration" : "Integracja Linux",
-        
+
         "Settings.System.KeepOriginalScreenshotFormat" : "Zachowaj oryginalny format zrzutu ekranu",
         "Settings.System.KeepOriginalScreenshotFormat.Description" : "Po włączeniu zrzuty ekranu nie będą konwertowane do formatu JPG po zapisaniu w folderze Dokumenty",
 
@@ -894,11 +932,10 @@
         "Inspector.Mesh.BoneTrimCount" : "{n,plural, one {# Kość} few {# Kości} many {# Kości}}",
         "Inspector.Mesh.UV_Multiplicator" : "Mnożnik:",
         "Inspector.Mesh.ScaleUVs" : "Skaluj UV",
-        
+
         "Inspector.MeshRenderer.MergeByMaterial" : "Połącz submeshe z takimi samymi materiałami",
         "Inspector.MeshRenderer.SplitByMaterial" : "Rozdziel mesh na części z takimi samymi materiałami",
 
-        
         "Inspector.SkinnedMesh.SeparateOutBlendshapes" : "Separuj części meshu nie doknięte przez blendshapy",
         "Inspector.SkinnedMesh.StripEmptyBlendshapes" : "Usuń Puste Blendshapy",
         "Inspector.SkinnedMesh.StripBlendshapesResult" : "Gotowe! Usunięto: {n,plural, one {# blendshape} few {# blendshapy} many {# blendshapeów}}",
@@ -907,7 +944,7 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds" : "Wizualizuj obszary kości",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds" : "Wizualizuj przybliżone obszary kości",
         "Inspector.SkinnedMesh.ClearBoundsVisuals" : "Usuń wizualizacje obszarów kości",
-        
+
         "Inspector.BipedRig.GetDiagnosticInfo" : "Pobierz informacje diagnostyczne szkieletu",
         "Inspector.BipedRig.GenerateDebugVisuals" : "Generuj wizualizacje debugowania",
         "Inspector.BipedRig.ClearDebugVisuals" : "Usuń wizualizacje debugowania",
@@ -952,6 +989,27 @@
         "Inspector.Texture.InvalidFloats" : "Diagnostyka: Niewłaściwe ",
         "Inspector.Texture.GenerateMetadata" : "Diagnostyka: Generuj Metadane Bitmapy",
 
+        "Inspector.Audio.BakeAudio" : "Wypal Dźwięk",
+        "Inspector.Audio.FormatInfo" : "Częstotliwość: {rate} Hz, Kanały: {channels} ({channel_count})",
+        "Inspector.Audio.Duration" : "Długość: {duration}",
+        "Inspector.Audio.EncodingInfo" : "Info o Kodeku: {info}, Zdekodowano: {decoded}",
+
+        "Inspector.Audio.Normalize" : "Normalizuj",
+        "Inspector.Audio.AmplitudeThreshold" : "Próg Amplitudy:",
+        "Inspector.Audio.TrimSilence" : "Wytnij Ciszę",
+        "Inspector.Audio.TrimStartSilence" : "Wytnij Początkową Ciszę",
+        "Inspector.Audio.TrimEndSilence" : "Wytnij Końcową Ciszę",
+        "Inspector.Audio.PositionDuration" : "Pozycja/Długość (w sekundach):",
+        "Inspector.Audio.TrimStart" : "Wytnij Przed",
+        "Inspector.Audio.TrimEnd" : "Wytnij Po",
+        "Inspector.Audio.FadeIn" : "Dodaj Efekt Fade In",
+        "Inspector.Audio.FadeOut" : "Dodaj Efekt Fade Out",
+        "Inspector.Audio.MakeLoopable" : "Pozwól na zapętlanie (używając crossfade)",
+        "Inspector.Audio.ToWAV" : "Konwertuj na WAV",
+        "Inspector.Audio.ToVorbis" : "Konwertuj na OGG Vorbis",
+        "Inspector.Audio.ToFLAC" : "Konwertuj na FLAC",
+
+        "Inspector.DynamicBoneChain.SetupFromChildren" : "Ustaw z dzieci",
         "Inspector.DynamicBoneChain.SetupFromChildrenAll" : "Ustaw z dzieci (wymuś wszystkie)",
         "Inspector.DynamicBoneChain.SetupFromChildrenRig" : "Ustaw z dzieci (tylko szkielet)",
         "Inspector.DynamicBoneChain.ReplaceSmoothTransforms" : "Zamień Płynne Transformacje  w dzieciach",
@@ -960,22 +1018,97 @@
         "Inspector.DynamicBoneChain.AddFixedCollidersFromHierarchy" : "Dodaj obszary do punktów centralnych obiektów w hierarchii",
         "Inspector.DynamicBoneChain.AlwaysGrabLastBone" : "Zawsze chwytaj ostatnią kość",
 
+        "Wizard.General.ProcessRoot" : "Miejsce Procesu:",
+        "Wizard.General.Result" : "Rezultat:",
+        "Wizard.General.ErrorNoRoot" : "Brak Miejsca Procesu",
+        "Wizard.General.RemovedResult" : "Usunięto {n}",
+
+        "Wizard.AssetOptimization.Title" : "Kreator Optymizacji Zasobów",
+        "Wizard.AssetOptimization.CleanupUnusedAssets" : "Usuń Nieużywane Zasoby",
+        "Wizard.AssetOptimization.CleanupEmptySlots" : "Usuń Puste Obiekty",
+        "Wizard.AssetOptimization.CleanupDisabledMeshRenderers" : "Wyczyść Wyłączone MeshRendery",
+        "Wizard.AssetOptimization.DeduplicateMaterials" : "Deduplikuj Materiały",
+        "Wizard.AssetOptimization.CleanupFileItems" : "Usuń Przedmioty Plików",
+        "Wizard.AssetOptimization.MaxTextureResolution" : "Ustaw Maksymalną Rozdzielczość Tekstur",
+        "Wizard.AssetOptimization.RecompressTextures" : "Rekompresuj Tekstury",
+        "Wizard.AssetOptimization.RecalculateAllNormals" : "Przelicz Wszystkie Normalne",
+        "Wizard.AssetOptimization.RecalculateAllNormalsMerged" : "Przelicz Wszystkie Normalne (połączone)",
+        "Wizard.AssetOptimization.RecalculateAllTangents" : "Przelicz Wszystkie Styczne (Mikktspace)",
+        "Wizard.AssetOptimization.ResizedResult" : "Przeskalowano {n}",
+
+        "Tutorial.Welcome.WelcomeTo" : "Witaj w",
+        "Tutorial.Welcome.LetsStart" : "Zacznijmy!",
+        "Tutorial.Welcome.ScreenWarning" : "<color=#f00><b>UWAGA:</b></color> Grasz aktualnie w trybie ekranowym, który nie jest oficjalnie wspierany ponieważ jest głównie używany do testowania.<br><br>Można go używać do grania, ale niektóre rzeczy mogą nie działać oraz sterowanie może być trudne do użycia.<br><br><b>Neos w tym momencie powinno być grane w wirtualnej rzeczywistości.</b><br><br>Porządny tryb ekranowy jest zaplanowany na daleką przyszłość.",
+        "Tutorial.Welcome.ScreenUnderstand" : "Rozumiem",
+        "Tutorial.Welcome.AccountHeader" : "Konto Neos",
+        "Tutorial.Welcome.AccountDescription" : "Tworzenie konta daje ci 1 GB darmowego miejsca w chmurze na zapisywanie przedmiotów, wybieranie awatarów, dodawanie kontaktów oraz wysyłanie wiadomości.",
+        "Tutorial.Welcome.AccountCreate" : "Utwórz Konto",
+        "Tutorial.Welcome.AccountLogin" : "Już Posiadam Konto",
+        "Tutorial.Welcome.AccountSkip" : "Kontynuuj Bez Tworzenia Konta",
+        "Tutorial.Welcome.AccountSkipHeader" : "Pominąć tworzenie konta?",
+        "Tutorial.Welcome.AccountSkipDescription" : "Niektóre funkcje takie jak zapisywanie przedmiotów, wybieranie awatarów lub dodawanie kontaktów nie będą dostępne.",
+        "Tutorial.Welcome.AccountSkipConfirm" : "Na Pewno",
+        "Tutorial.Welcome.StartTutorialHeader" : "Rozpocznij Samouczek",
+        "Tutorial.Welcome.StartTutorialDescription" : "Przeniesiemy cię do prostego świata samouczkowego aby pomóc ci zacząć z Neos. Możesz wybrać czy chcesz aby świat był publiczny, pozwalając społeczności Neos na dołączanie i pomaganie tobie lub uczyć się samemu.",
+        "Tutorial.Welcome.StartTutorialPublic" : "Chcę aby inni mogli dołączać i mi pomagać",
+        "Tutorial.Welcome.StartTutorialPrivate" : "Chcę uczyć się samemu",
+        "Tutorial.Welcome.PrivateTutorialHeader" : "Na pewno uruchomić prywatny świat?",
+        "Tutorial.Welcome.PrivateTutorialDescription" : "Społeczność może ci pomóc uczyć się szybciej i łatwiej, na pewno kontynuować samemu?",
+        "Tutorial.Welcome.PrivateTutorialConfirm" : "Uruchom Prywatnie",
+
+        "Tutorial.Grab.MoveRotate" : "Przenieś/Obróć chwycone przedmioty",
+        "Tutorial.Grab.Scale" : "Chwyć drugim kontrolerem aby skalować",
+        "Tutorial.Grab.PullToEquip" : "Przyciągnij do siebie aby ekwipować",
+        "Tutorial.Grab.UseHeld" : "Użyj głównej akcji (nie wymaga ekwipowania)",
+        "Tutorial.Grab.ContextEquip" : "Użyj Menu Kontekstu aby Ekwipować lub Zobaczyć Opcje",
+        "Tutorial.Grab.EquipForFullUse" : "Ekwipuj aby użyć pełną funkcjonalność",
+
+        "Tutorial.WorldOrb.Click" : "Kliknij Kulę Świata",
+        "Tutorial.WorldOrb.Info" : "<b>Kula Świata</b>\n<size=80%>Reprezentuje świat lub sesję\nPodwójne Kliknięcie - Wejdź\nPojedyncze Kliknięcie - Menu Kontekstu",
+
+        "Tutorial.Tooltip.GeneralPrimary" : "Użyj",
+        "Tutorial.Tooltip.GeneralSecondary" : "Drugorzędna Akcja",
+        "Tutorial.Tooltip.ContextMenu" : "Zobacz menu konekstu oraz opcje odekwipowania",
+        "Tutorial.Tooltip.DevPrimary" : "Interaguj z gizmami (przytrzymaj)",
+        "Tutorial.Tooltip.DevSecondary" : "Wybierz (pokazuje gizma)",
+        "Tutorial.Tooltip.Duplicator" : "Duplikuj (podczas trzymania przedmiotu)",
+        "Tutorial.Tooltip.GluePrimary" : "Stwórz Klej (przytrzymaj)",
+        "Tutorial.Tooltip.GlueSecondary" : "Wymuś wyschnięcie kleju",
+        "Tutorial.Tooltip.ColorPrimary" : "Nadaj Kolor",
+        "Tutorial.Tooltip.ColorSecondary" : "Wybierz Kolor",
+        "Tutorial.Tooltip.Brush" : "Rysuj",
+        "Tutorial.Tooltip.MaterialPrimary" : "Nadaj Materiał\n<size=75%>(Umieść kulę materiału w narzędziu)</size>",
+        "Tutorial.Tooltip.MaterialSecondary" : "Ekstraktuj Materiał\n<size=75%>(Upewnij się że nie ma materiału w narzędziu)</size>",
+        "Tutorial.Tooltip.MeshPrimary" : "Zamień Mesh",
+        "Tutorial.Tooltip.MeshSecondary" : "Ekstraktuj Mesh",
+        "Tutorial.Tooltip.CharacterColliderPrimary" : "Dodaj Kolizje z Postaciami",
+        "Tutorial.Tooltip.CharacterColliderSecondary" : "Usuń Kolizje z Postaciami",
+        "Tutorial.Tooltip.GrabbableSetterPrimary" : "Pozwól na Chwytanie",
+        "Tutorial.Tooltip.GrabbableSetterSecondary" : "Zabroń Chwytanie",
+        "Tutorial.Tooltip.LightPrimary" : "Stwórz Światło (przytrzymaj)",
+        "Tutorial.Tooltip.LightSecondary" : "Zmień Kolor",
+        "Tutorial.Tooltip.MeshVisibilityPrimary" : "Zrób Widzialny",
+        "Tutorial.Tooltip.MeshVisibilitySecondary" : "Zrób Niewidzialny",
+        "Tutorial.Tooltip.ShapePrimary" : "Stwórz Kształt",
+        "Tutorial.Tooltip.ShapeSecondary" : "Zmień Kształt",
+        "Tutorial.Tooltip.WigglerPrimary" : "Wypuść Niewypowiedziane Zła Na Świat",
+        "Tutorial.Tooltip.WigglerSecondary" : "Częściowo odzyskaj swoją duszę",
+
         "Exiting.SavingItems" : "Zapisywanie {n, plural, one {# przedmiotu} few {# przedmiotów} many {# przedmiotów}}...",
         "Exiting.SavingChanges" : "Zapisywanie Zmian...",
         "Exiting.Exiting" : "Wychodzenie...",
         "Exiting.LoggingOut" : "Wylogowywanie...",
-        
-        "Temporary.MMC.Voting UI": "Interfejs Głosowania MMC",
-        "Temporary.MMC.Vote": "Głosuj",
-        "Temporary.MMC.Categories.Name": "Kategorie",
-        "Temporary.MMC.Categories.Worlds": "Światy",
-        "Temporary.MMC.Categories.Other": "Gadżety/Narzędzia+",
-        "Temporary.MMC.Categories.Avatars": "Awatary",
-        "Temporary.MMC.VoteSuccess": "Zagłosowano w kategorii {category} na {voteTarget}.",
-        "Temporary.MMC.VoteFailure": "Głosowanie nie powiodło się, twój głos nie został zarejestrowany, proszę spróbować ponownie.",
-        
-        "Temporary.MMC.VotedAlready": "Zagłosowałeś już na {category}.",
-        "Temporary.MMC.VoteInvalid": "Głos jest niewłaściwy, proszę spróbować ponownie.",
+
+        "Temporary.MMC.Voting UI" : "Interfejs Głosowania MMC",
+        "Temporary.MMC.Vote" : "Głosuj",
+        "Temporary.MMC.Categories.Name" : "Kategorie",
+        "Temporary.MMC.Categories.Worlds" : "Światy",
+        "Temporary.MMC.Categories.Other" : "Gadżety/Narzędzia+",
+        "Temporary.MMC.Categories.Avatars" : "Awatary",
+        "Temporary.MMC.VoteSuccess" : "Zagłosowano w kategorii {category} na {voteTarget}.",
+        "Temporary.MMC.VoteFailure" : "Głosowanie nie powiodło się, twój głos nie został zarejestrowany, proszę spróbować ponownie.",
+        "Temporary.MMC.VotedAlready" : "Zagłosowałeś już na {category}.",
+        "Temporary.MMC.VoteInvalid" : "Głos jest niewłaściwy, proszę spróbować ponownie.",
 
         "Dummy" : "Dummy"
     }
